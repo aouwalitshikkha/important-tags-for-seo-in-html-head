@@ -15,27 +15,30 @@
         <!-- For responsive design -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- For Favicon  -->
 
+        <!-- For Favicon  -->
         <!-- Target ios browsers. -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
         <!-- Target safari on MacOS. -->
-
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-
         <!-- The classic favicon displayed in tabs. -->
-
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <!-- Used by Android Chrome for the "Add to home screen" icon and settings. -->
-
         <link rel="manifest" href="/site.webmanifest">
         <!-- Used for Safari pinned tabs. -->
-
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#193860">
+        <!-- third-generation iPad with high-resolution Retina display: -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon144.png">
+        <!-- iPhone with high-resolution Retina display: -->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon114.png">
+        <!-- first- and second-generation iPad: -->
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon72.png">
+        <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+        <link rel="apple-touch-icon-precomposed" href="favicon57.png">
+        <!-- basic favicon -->
+        <link rel="icon" href="favicon32.png">
 
-        <!-- Target older browsers like IE 10 and lower. -->
-        <link rel="icon" href="/favicon.ico">
+
 
         <!-- Used by Chrome, Firefox OS, and opera to change the browser address bar. -->
         <!-- reference
@@ -43,6 +46,8 @@
         -->
         <meta name="theme-color" content="#ccccc7">
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+        <meta name="color-scheme" content="dark light">
+
 
 
         <!--  Used by windows 8, 8.1, and 10 for the start menu tiles. -->
@@ -55,21 +60,17 @@
 
         <!-- SEO Meta Title  -->
         <title>Document</title>
-
         <!-- Meta Robots  -->
         <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-
         <!-- Meta Description -->
         <meta name="description" content="Meta Description Goes Here" />
-
         <!-- Meta Author  -->
         <meta name="author" content="first Name Last Name" />
-
         <!-- Cannoical Links  -->
         <link rel="canonical" href="https://cannoicallink.com/" />
 
-        <!-- Open Graph Meta Datas -->
 
+        <!-- Open Graph Meta Datas -->
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Open Graph Meta Tags" />
@@ -81,18 +82,23 @@
         <meta property="article:modified_time" content="2021-06-29T16:52:29+00:00" />
         <meta property="og:image" content="fb-open-graph-image.png" />
         <meta property="og:image:width" content="1920" />
-        <meta property="og:image:height" content="990" />
+        <meta property="og:image:height" content="Alter Tags" />
+        <meta property="og:image:alt" content="990" />
         <meta property="og:image:type" content="image/png" />
 
-        <!-- Twitter Datas -->
 
+        <!-- Twitter Datas -->
+        <meta name="twitter:title" content="summary_large_image" />
+        <!--Doesn't required if open graph present-->
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:description" content="Make your content more clickable and shareable on social media." />
         <meta name="twitter:creator" content="@author_user_name" />
         <meta name="twitter:site" content="@site_account_name" />
+        <meta name="twitter:image" content="@site_account_name" />
+        <!--Doesn't required if open graph present-->
+
 
         <!-- Optional Twitter data used by Yoast -->
-
         <meta name="twitter:label1" content="Written by" />
         <meta name="twitter:data1" content="Joost de Valk" />
         <meta name="twitter:label2" content="Est. reading time" />
@@ -103,11 +109,12 @@
 
             <!-- // Structured Data will goes here in json format // -->
 
-         </script>
+        </script>
         <!-- asks the browser to perform a DNS resolution of a domain in advance. 
             It's helpful when you know you'll connect to that domain soon, 
             and you want to speed up the initial connection 
         -->
+
         <link rel='dns-prefetch' href='//site.com' />
         <link rel='dns-prefetch' href='//ajax.googleapis.com' />
         <link href='https://fonts.gstatic.com' crossorigin='anonymous' rel='preconnect' />
@@ -118,16 +125,13 @@
             imagesizes="(max-width: 1012px) 100vw, 1012px" />
 
         <!-- Blog Feed Link -->
-
         <link rel="alternate" type="application/rss+xml" title="SEO Blog Feed" href="https://site.com/feed/" />
 
-        <!-- if you use api -->
+        <!-- if you use rest api -->
         <link rel="https://api.w.org/" href="https://sitename.com/wp-json/" />
 
         <!-- CSS link -->
         <link rel="stylesheet" href="style.css">
-
-
     </head>
 
     <body>
